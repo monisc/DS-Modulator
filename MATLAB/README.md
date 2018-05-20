@@ -1,4 +1,4 @@
-# MATLAB Simulation Scripts
+## MATLAB Simulation Scripts
 
 Both scripts take as the input a vector with the signal samples.
 
