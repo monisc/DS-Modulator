@@ -84,7 +84,7 @@ ISR(TIMER2_COMPA_vect) {
   
   ADC_val = ADCH;
 
-  //u = analogRead(in_pin)*5.0/1023.0; /* Get new value from A0 (problema amb l'offset?? */
+  /*u = analogRead(in_pin)*5.0/1023.0; // Get new value from A0 (problema amb l'offset?? */
   u = ADCH*5.0/255.0-0.4;
 
   x[0] = xn[0] - v + u;
